@@ -2,7 +2,9 @@
     "name": "hw-bubbles",
     "description": "hw-bubbles",
     "author": "prof",
-    "keywords": ["hw-bubbles"],
+    "keywords": [
+        "hw-bubbles"
+    ],
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
@@ -15,14 +17,17 @@
     "devDependencies": {
         "eslint": "^3.15.0",
         "gulp": "^3.9.1",
-        "mocha": "^3.2.0",
+        "mocha": "^3.5.3",
         "mute": "^2.0.6",
         "q": "^1.4.1",
         "request": "^2.79.0"
     },
     "dependencies": {
-        "bluebird": "^3.5.0",
+        "bluebird": "^3.5.1",
         "chai": "^3.5.0",
-        "mocha": "^3.2.0"
+        "cheerio": "^1.0.0-rc.2",
+        "fs": "0.0.1-security",
+        "html-minifier": "^3.5.10",
+        "sync-request": "^5.0.0"
     }
 }
